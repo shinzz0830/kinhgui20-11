@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gửi thầy cô – 20/11</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Dancing+Script:wght@600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF3EF;--ink:#17302B;--muted:#4F665E;--card:#FFFFFF;--line:#C9D7D0;--board:#1B3B34;--chalk:#F1F4EE;--yel:#EBC45A;--pink:#F0A0B2;--wood:#8B6A47;--open:#E4EEE8;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1816;--ink:#E6EEE9;--muted:#9DB3AA;--card:#15251F;--line:#28403A;--board:#163029;--open:#1D332C;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0D1816;--ink:#E6EEE9;--muted:#9DB3AA;--card:#15251F;--line:#28403A;--board:#163029;--open:#1D332C;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.7 "Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+.board{background:var(--board);border:12px solid var(--wood);border-radius:6px;box-shadow:inset 0 0 50px rgba(0,0,0,.4);color:var(--chalk)}
+.tray{height:10px;width:94%;margin:0 auto;background:#A88660;border-radius:0 0 4px 4px}
+.hero{margin-top:28px}
+.hero .board{padding:clamp(28px,7vw,72px) clamp(20px,5vw,56px);text-align:center}
+.date{margin:0 0 8px;color:var(--yel);font-weight:500}
+h1{margin:0;font:700 clamp(3rem,13vw,6.5rem)/1.1 "Dancing Script",cursive;padding-bottom:.1em;animation:write 2s ease-out both}
+@keyframes write{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.hero p.sub{margin:10px auto 22px;max-width:36ch;font:400 clamp(1.2rem,3.5vw,1.55rem)/1.5 "Patrick Hand","Be Vietnam Pro",sans-serif;animation:fade 1s 1.6s ease-out both}
+.go{display:inline-block;min-height:46px;padding:10px 24px;border-radius:10px;background:var(--yel);color:#2A2410;font-weight:600;text-decoration:none;animation:fade 1s 2s ease-out both}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+h2{margin:64px 0 6px;font:700 clamp(2.1rem,6vw,3rem)/1.2 "Dancing Script",cursive}
+.note{margin:0 0 20px;color:var(--muted)}
+.letter{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:clamp(24px,6vw,52px);font:400 clamp(1.25rem,3vw,1.45rem)/1.65 "Patrick Hand","Be Vietnam Pro",sans-serif}
+.letter p{margin:0 0 1em;max-width:60ch}
+.letter .to{font:600 1.9rem/1.2 "Dancing Script",cursive}
+.letter .from{margin:1.4em 0 0;text-align:right;font:600 1.8rem/1.2 "Dancing Script",cursive}
+.thanks{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+@media (min-width:720px){.thanks{grid-template-columns:1fr 1fr}}
+.thanks li{padding:20px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.thanks h3{margin:0 0 6px;font-size:1.05rem;font-weight:600}
+.thanks p{margin:0;color:var(--muted);font-size:.98rem}
+.garden{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}
+@media (min-width:600px){.garden{grid-template-columns:repeat(6,1fr)}}
+.flower{aspect-ratio:1;min-height:64px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);font-size:2rem;cursor:pointer;transition:transform .15s}
+.flower:hover{transform:translateY(-3px)}
+.flower[aria-pressed=true]{background:var(--open);opacity:.55}
+:focus-visible{outline:3px solid var(--yel);outline-offset:2px}
+.card{min-height:190px;padding:clamp(22px,5vw,40px);display:flex;flex-direction:column;justify-content:center}
+.card p{margin:0;font:400 clamp(1.3rem,3.6vw,1.8rem)/1.55 "Patrick Hand","Be Vietnam Pro",sans-serif}
+.card .cnt{margin-top:14px;color:var(--pink);font-size:.95rem;font-family:"Be Vietnam Pro",sans-serif}
+.pop{animation:fade .45s ease-out}
+.poem{white-space:pre-line;text-align:center;font:400 clamp(1.3rem,3.6vw,1.7rem)/1.7 "Patrick Hand","Be Vietnam Pro",sans-serif;padding:clamp(24px,6vw,48px)}
+.proverb{margin:18px 0 0;text-align:center;color:var(--muted);font-style:italic}
+footer{margin:64px 0 0;padding:28px 0 44px;border-top:1px solid var(--line);color:var(--muted);text-align:center}
+@media (prefers-reduced-motion:reduce){h1,.hero p.sub,.go,.pop{animation:none}.flower{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div class="board">
+    <p class="date">Ngày Nhà giáo Việt Nam 20/11</p>
+    <h1>Cảm ơn thầy cô</h1>
+    <p class="sub">Một góc nhỏ để học trò nói điều thường ngày chưa kịp nói.</p>
+    <a class="go" href="#thu">Đọc thư của chúng em</a>
+  </div>
+  <div class="tray"></div>
+</header>
+
+<main>
+  <section id="thu" aria-labelledby="h-thu">
+    <h2 id="h-thu">Thư gửi thầy cô</h2>
+    <div class="letter">
+      <p class="to">Kính gửi các thầy cô,</p>
+      <p>Có lẽ trong những ngày bận rộn, chúng em chưa kịp nói với thầy cô một điều rất đơn giản: cảm ơn thầy cô nhiều lắm.</p>
+      <p>Cảm ơn vì những buổi sáng thầy cô đến lớp thật sớm, những buổi chiều ở lại thật muộn. Cảm ơn vì những trang giáo án soạn trong đêm, những bài kiểm tra chấm từng dòng, và cả những lần thầy cô nhẹ giọng khi chúng em làm chưa tốt.</p>
+      <p>Hồi còn ngồi trên ghế nhà trường, có thể chúng em chưa hiểu hết. Nhưng càng lớn, chúng em càng nhận ra mỗi lời dặn của thầy cô đều là một viên gạch lót đường cho chúng em đi tiếp.</p>
+      <p>Nhân ngày 20/11, xin gửi đến thầy cô lời chúc sức khỏe, bình an và niềm vui trọn vẹn. Mong thầy cô luôn tự hào về những gì mình đã gieo.</p>
+      <p class="from">Học trò của thầy cô</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-vi">
+    <h2 id="h-vi">Chúng em biết ơn vì</h2>
+    <p class="note">Sáu điều nhỏ, trong rất nhiều điều thầy cô đã làm cho chúng em.</p>
+    <ul class="thanks">
+      <li><h3>Sự kiên nhẫn</h3><p>Thầy cô giảng lại lần thứ hai, thứ ba, thứ mười mà chưa bao giờ làm chúng em thấy mình chậm.</p></li>
+      <li><h3>Những buổi học dài hơn tiếng chuông</h3><p>Giờ ra chơi, giờ tan học, đôi khi cả buổi tối, thầy cô vẫn dành thời gian cho từng em.</p></li>
+      <li><h3>Niềm tin</h3><p>Có lúc chúng em không tin vào chính mình, nhưng thầy cô vẫn tin.</p></li>
+      <li><h3>Những bài học ngoài sách vở</h3><p>Cách đứng dậy sau thất bại, cách nói lời xin lỗi, cách sống tử tế với người khác.</p></li>
+      <li><h3>Giọng nói nhẹ nhàng</h3><p>Mỗi lần chúng em làm sai, thầy cô chọn nhắc nhở thay vì trách mắng.</p></li>
+      <li><h3>Những điều thầy cô lặng lẽ làm</h3><p>Những lo toan, những đêm thức khuya mà chúng em chưa từng biết đến.</p></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="h-chuc">
+    <h2 id="h-chuc">Vườn hoa chúc</h2>
+    <p class="note">Thầy cô hãy chạm vào từng bông hoa, mỗi bông giữ một lời chúc.</p>
+    <div class="garden" id="garden"></div>
+    <div class="board card" id="card" aria-live="polite">
+      <p id="wish">Chạm vào một bông hoa để mở lời chúc.</p>
+      <span class="cnt" id="cnt">Đã mở 0/12 lời chúc</span>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-tho">
+    <h2 id="h-tho">Mấy câu thơ tặng thầy cô</h2>
+    <div class="letter poem">Tháng Mười Một nắng hanh vàng,
+Hoa tươi dâng tặng, lòng ngàn lời thương.
+Thầy cô như ánh mặt trời,
+Soi đường dẫn lối cho đời học trò.</div>
+    <p class="proverb">“Muốn sang thì bắc cầu kiều, muốn con hay chữ thì yêu lấy thầy.”</p>
+  </section>
+</main>
+
+<footer>Chúc thầy cô một mùa 20/11 thật ấm áp, khỏe mạnh và luôn được yêu thương.</footer>
+</div>
+
+<script>
+var W=[
+"Chúc thầy cô luôn mạnh khỏe, để còn đứng trên bục giảng thật lâu, thật vững.",
+"Chúc thầy cô mỗi sáng thức dậy đều thấy nhẹ nhõm, mỗi tối trở về đều thấy ấm áp bên gia đình.",
+"Chúc thầy cô có thật nhiều học trò ngoan, và những học trò chưa ngoan cũng sẽ nhớ ơn thầy cô về sau.",
+"Chúc thầy cô được nghỉ ngơi nhiều hơn, được chăm sóc bản thân nhiều hơn, vì thầy cô đã lo cho chúng em quá nhiều.",
+"Chúc những giọt mồ hôi trên bục giảng sẽ hóa thành quả ngọt trong cuộc sống của thầy cô.",
+"Chúc thầy cô mãi giữ được ngọn lửa yêu nghề, dù đường dạy học có lúc nhiều gió.",
+"Chúc thầy cô luôn bình an, và mọi điều tốt đẹp thầy cô đã cho đi sẽ quay trở lại gấp bội.",
+"Chúc thầy cô có những ngày thật vui bên người thân, ít lo toan, nhiều tiếng cười.",
+"Chúc mỗi tiết học của thầy cô đều có một khoảnh khắc khiến thầy cô mỉm cười vì học trò.",
+"Chúc thầy cô thành công trong công việc, hạnh phúc trong cuộc sống và luôn được kính trọng ở bất cứ nơi đâu.",
+"Chúc thầy cô nhận được thật nhiều tin nhắn, cuộc gọi và cái ôm từ học trò cũ, hôm nay và cả những năm sau.",
+"Chúc thầy cô mãi là người lái đò may mắn, mỗi chuyến đò đều cập bến bình yên."
+];
+var E=["🌸","🌼","🌻","🌷","🌹","🌺"];
+var opened={},n=0,g=document.getElementById("garden"),wish=document.getElementById("wish"),cnt=document.getElementById("cnt"),card=document.getElementById("card");
+W.forEach(function(w,i){
+  var b=document.createElement("button");
+  b.className="flower";b.textContent=E[i%E.length];
+  b.setAttribute("aria-label","Mở lời chúc số "+(i+1));
+  b.setAttribute("aria-pressed","false");
+  b.onclick=function(){
+    if(!opened[i]){opened[i]=1;n++;b.setAttribute("aria-pressed","true")}
+    wish.textContent=w;
+    cnt.textContent=n===W.length?"Thầy cô đã mở hết 12 lời chúc. Nhưng lời cảm ơn của chúng em thì còn nhiều hơn thế.":"Đã mở "+n+"/12 lời chúc";
+    card.classList.remove("pop");void card.offsetWidth;card.classList.add("pop");
+  };
+  g.appendChild(b);
+});
+</script>
+</body>
+</html>
